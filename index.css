@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'CursedTimerUlil-Aznm';
+    src: url('CursedTimerUlil-Aznm.ttf'); 
+    
+}
+
+body {
+    margin-top: 10px;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    border: 5px solid #EEEEEE;
+    background: #1B244A;
+    border-radius: 15px;
+    padding: 0px 0px 50px 0px; 
+}
+
+#square {
+    border: 2px solid #1B244A;
+    width: 155px;
+    height: 120px;
+    left: 82px;
+    top: 125px;
+    background: #080001;
+    border-radius: 7px;
+    margin-top: 21px;
+   
+}
+
+#smallsquare {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    font-family: 'CursedTimerUlil-Aznm';
+    background-color: transparent;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    margin-top: 26px;
+    width: 40px;
+    height: 40px;
+}
+
+h3 {
+    color: #EEEEEE;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    width: 149px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-family: 'CursedTimerUlil-Aznm';
+    color: #F94F6D;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    
+    width: 100px;
+    display: block;
+    margin: auto;
+}
